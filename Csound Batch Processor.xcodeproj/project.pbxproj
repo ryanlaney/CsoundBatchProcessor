@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F4FEDCD1BC604F200B7963A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FEDCC1BC604F200B7963A /* AppDelegate.swift */; };
+		5F4FEDCF1BC604F200B7963A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FEDCE1BC604F200B7963A /* ViewController.swift */; };
+		5F4FEDD11BC604F200B7963A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4FEDD01BC604F200B7963A /* Assets.xcassets */; };
+		5F4FEDD41BC604F200B7963A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4FEDD21BC604F200B7963A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F4FEDC91BC604F200B7963A /* Csound Batch Processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Csound Batch Processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4FEDCC1BC604F200B7963A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F4FEDCE1BC604F200B7963A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F4FEDD01BC604F200B7963A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F4FEDD31BC604F200B7963A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F4FEDD51BC604F200B7963A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F4FEDC61BC604F200B7963A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F4FEDC01BC604F200B7963A = {
+			isa = PBXGroup;
+			children = (
+				5F4FEDCB1BC604F200B7963A /* Csound Batch Processor */,
+				5F4FEDCA1BC604F200B7963A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F4FEDCA1BC604F200B7963A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F4FEDC91BC604F200B7963A /* Csound Batch Processor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F4FEDCB1BC604F200B7963A /* Csound Batch Processor */ = {
+			isa = PBXGroup;
+			children = (
+				5F4FEDCC1BC604F200B7963A /* AppDelegate.swift */,
+				5F4FEDCE1BC604F200B7963A /* ViewController.swift */,
+				5F4FEDD01BC604F200B7963A /* Assets.xcassets */,
+				5F4FEDD21BC604F200B7963A /* Main.storyboard */,
+				5F4FEDD51BC604F200B7963A /* Info.plist */,
+			);
+			path = "Csound Batch Processor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F4FEDC81BC604F200B7963A /* Csound Batch Processor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F4FEDD81BC604F200B7963A /* Build configuration list for PBXNativeTarget "Csound Batch Processor" */;
+			buildPhases = (
+				5F4FEDC51BC604F200B7963A /* Sources */,
+				5F4FEDC61BC604F200B7963A /* Frameworks */,
+				5F4FEDC71BC604F200B7963A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Csound Batch Processor";
+			productName = "Csound Batch Processor";
+			productReference = 5F4FEDC91BC604F200B7963A /* Csound Batch Processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F4FEDC11BC604F200B7963A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ryan Laney";
+				TargetAttributes = {
+					5F4FEDC81BC604F200B7963A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F4FEDC41BC604F200B7963A /* Build configuration list for PBXProject "Csound Batch Processor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F4FEDC01BC604F200B7963A;
+			productRefGroup = 5F4FEDCA1BC604F200B7963A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F4FEDC81BC604F200B7963A /* Csound Batch Processor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F4FEDC71BC604F200B7963A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4FEDD11BC604F200B7963A /* Assets.xcassets in Resources */,
+				5F4FEDD41BC604F200B7963A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F4FEDC51BC604F200B7963A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4FEDCF1BC604F200B7963A /* ViewController.swift in Sources */,
+				5F4FEDCD1BC604F200B7963A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F4FEDD21BC604F200B7963A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F4FEDD31BC604F200B7963A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F4FEDD61BC604F200B7963A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F4FEDD71BC604F200B7963A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F4FEDD91BC604F200B7963A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Csound Batch Processor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanlaneysoftware.Csound-Batch-Processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F4FEDDA1BC604F200B7963A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Csound Batch Processor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanlaneysoftware.Csound-Batch-Processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F4FEDC41BC604F200B7963A /* Build configuration list for PBXProject "Csound Batch Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4FEDD61BC604F200B7963A /* Debug */,
+				5F4FEDD71BC604F200B7963A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F4FEDD81BC604F200B7963A /* Build configuration list for PBXNativeTarget "Csound Batch Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4FEDD91BC604F200B7963A /* Debug */,
+				5F4FEDDA1BC604F200B7963A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F4FEDC11BC604F200B7963A /* Project object */;
+}
