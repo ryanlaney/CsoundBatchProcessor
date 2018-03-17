@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ViewController" customModule="Csound_Batch_Processor" customModuleProvider="target"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window identifier="HelpPanel" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="6Ob-TI-Pxs" customClass="NSPanel">
+            <windowStyleMask key="styleMask" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="167" y="107" width="449" height="342"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <view key="contentView" id="2mC-f1-uc0">
+                <rect key="frame" x="0.0" y="0.0" width="449" height="342"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDY-Os-fgd">
+                        <rect key="frame" x="18" y="50" width="413" height="272"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="mOB-Un-Hdr">
+                            <font key="font" metaFont="system"/>
+                            <string key="title">This app allows you to run Csound commands for multiple parameter values simultaneously.  It works by targeting the omacro and smacro command line flags; when you load a .csd file (or .orc and .sco), the app will search the file for instances of macros, which are words that begin with $.
+
+Each macro that is found will appear next to a text entry box, where you can enter as many values for that macro as you want.  Put only one value on each line.  When you press "Compile," the app will compile the Csound file for every possible combination of values you entered.  By default, a .wav file will be generated in the output directory you selected, but you can select a different format in Preferences.  You can also specify the output file name in the Naming Convention text box -- include macro values by enclosing the label in &lt;&gt;.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button identifier="OK" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-5u-Vme">
+                        <rect key="frame" x="195" y="18" width="59" height="25"/>
+                        <buttonCell key="cell" type="roundTextured" title="OK" bezelStyle="texturedRounded" alignment="center" borderStyle="border" inset="2" id="NYb-OZ-hM6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeHelpPanel:" target="-2" id="CJm-5x-E9W"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="273.5" y="335"/>
+        </window>
+    </objects>
+</document>
